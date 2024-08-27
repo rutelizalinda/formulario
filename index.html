@@ -10,6 +10,33 @@
          <p>Digite seu nome:</p>
          <input type="text" name="nome" placeholder="Nome completo" required>
          <p>Digite seu e-mail</p>
-         <input type="e-mail" name="email" placeholder="E-mail completo" required
+         <input type="e-mail" name="email" placeholder="E-mail completo" required>
+         <p>Você trabalha?</p>
+         <input type="radio" name="work" value="sim" required> Sim
+         <input type="radio" name="work" value="não" required> Não
+         <br>
+         <p>Selecione seu estado</p>
+         <select name="estado" required>
+            <option value="1">Mato grosso</option>
+            <option value="2">São Paulo</option>
+            <option value="3">Parána</option>
+         </select>
+        <br>
+        <p>Selecione sua idade</p>
+         <select name="idade" required>
+            <option value="1">16 a 18</option>
+            <option value="2">18 a 25</option>
+            <option value="3">25 ou mais</option>
+         </select>
+         <br>
+         <p>Dexe aqui uma reclamação</p>
+         <textarea name="feedback" required></textarea>
+         <br>
+         <input type="checkbox" name="novidades" required>Li, e concordo
+         <br>
+         <br>
+         <button type="submit">Enviar</button>
+         <button type="reset">Cancelar</button>
+        </form>
 </body>
 </html>
